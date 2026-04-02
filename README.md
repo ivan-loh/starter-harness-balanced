@@ -1,6 +1,6 @@
 > This is the `starter-harness-balanced` template repository.
 > Start here: [Use this template](https://github.com/ivan-loh/starter-harness-balanced/generate)
-> Need less or more structure? Compare the variants in [starter-harness-scaffolds](https://github.com/ivan-loh/starter-harness-scaffolds).
+> Need less or more structure? Compare the variants in [starter-harness](https://github.com/ivan-loh/starter-harness).
 
 # {{PROJECT_NAME}}
 
