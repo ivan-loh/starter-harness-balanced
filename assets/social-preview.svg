@@ -1,0 +1,29 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="92" y1="60" x2="1190" y2="592" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F5E9D4"/>
+      <stop offset="1" stop-color="#E8EEF3"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="228" y1="164" x2="1062" y2="504" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#17324D"/>
+      <stop offset="1" stop-color="#285980"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="640" fill="url(#bg)"/>
+  <circle cx="162" cy="122" r="124" fill="#F0D0A2"/>
+  <circle cx="1128" cy="510" r="164" fill="#CEDBE7"/>
+  <rect x="170" y="160" width="940" height="330" rx="34" fill="url(#panel)"/>
+
+  <rect x="236" y="214" width="214" height="40" rx="20" fill="#F2D09A"/>
+  <text x="266" y="239" fill="#17324D" font-family="Helvetica" font-size="20" font-weight="700" letter-spacing="0.14em">BALANCED</text>
+
+  <text x="236" y="300" fill="#F8FBFD" font-family="Helvetica" font-size="44" font-weight="700">Balanced docs-first starter</text>
+  <text x="236" y="354" fill="#F8FBFD" font-family="Helvetica" font-size="44" font-weight="700">for small</text>
+  <text x="236" y="408" fill="#F8FBFD" font-family="Helvetica" font-size="44" font-weight="700">product teams</text>
+
+  <text x="236" y="466" fill="#D6E6EE" font-family="Helvetica" font-size="24" font-weight="400">Core docs, roadmap, risks, and security guidance.</text>
+
+  <rect x="236" y="512" width="340" height="44" rx="22" fill="#D38A3C"/>
+  <text x="270" y="540" fill="#F8FBFD" font-family="Helvetica" font-size="22" font-weight="700">Use this template on GitHub</text>
+</svg>
