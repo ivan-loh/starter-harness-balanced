@@ -15,8 +15,9 @@
 ## Start Here
 
 1. Replace the placeholder text in this file.
-2. Read [docs/INDEX.md](docs/INDEX.md) to see what each doc is for.
-3. Fill in the core docs first, then fill in the security and governance files that apply.
+2. Work through [TODO.md](TODO.md) for setup items that cannot be known before the template is copied.
+3. Read [docs/INDEX.md](docs/INDEX.md) to see what each doc is for.
+4. Fill in the core docs first, then fill in the security and governance files that apply.
 
 ## Project Defaults
 
@@ -35,8 +36,11 @@
 
 ## For LLMs
 
-- Read [CLAUDE.md](CLAUDE.md) first.
-- Read [docs/INDEX.md](docs/INDEX.md) second.
+- Read [AGENTS.md](AGENTS.md) first.
+- Read [README.md](README.md) second for the project overview.
+- Read [docs/INDEX.md](docs/INDEX.md) third.
+- Read [TODO.md](TODO.md) before substantial work.
+- Read [CLAUDE.md](CLAUDE.md) after that if you are Claude Code.
 - Use [docs/INDEX.md](docs/INDEX.md) as the file map.
 - Use root [SECURITY.md](SECURITY.md) for public reporting.
 - Use [docs/SECURITY.md](docs/SECURITY.md) for internal security work.
@@ -45,6 +49,7 @@
 ## Core Docs
 
 - [Project index](docs/INDEX.md)
+- [Template setup TODO](TODO.md)
 - [Harness guide](docs/HARNESS_GUIDE.md)
 - [Development guide](docs/DEVELOPMENT.md)
 - [Product requirements](docs/PRD.md)

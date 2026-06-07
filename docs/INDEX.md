@@ -8,7 +8,9 @@
 
 - `docs/INDEX.md` is the file map for the docs.
 - `README.md` is the main file for humans.
-- `CLAUDE.md` is the main file for Claude Code.
+- `AGENTS.md` is the model-neutral entry point for coding agents.
+- `CLAUDE.md` is the Claude Code-specific instruction file.
+- `TODO.md` tracks setup items that cannot be known before the template is copied.
 - `docs/PRD.md` owns product scope and requirements.
 - `docs/ARCHITECTURE.md` owns system structure.
 - `docs/TESTING.md` owns testing rules.
@@ -16,12 +18,15 @@
 ## Reading Order
 
 - Humans: `README.md` -> `docs/INDEX.md` -> `docs/DEVELOPMENT.md` -> `docs/PRD.md` -> task-specific docs
-- LLMs: `CLAUDE.md` -> `docs/INDEX.md` -> task-specific docs
+- LLMs: `AGENTS.md` -> `README.md` -> `docs/INDEX.md` -> `TODO.md` -> task-specific docs
+- Claude Code: `AGENTS.md` -> `README.md` -> `docs/INDEX.md` -> `TODO.md` -> `CLAUDE.md` -> task-specific docs
 
 ## Root Files
 
 - `README.md`: start here if you are a person
-- `CLAUDE.md`: start here if you are Claude Code
+- `AGENTS.md`: start here if you are a coding agent
+- `CLAUDE.md`: Claude Code-specific guidance
+- `TODO.md`: setup work for the copied project
 - `CONTRIBUTING.md`: change and review process
 - `SECURITY.md`: public security reporting
 - `CHANGELOG.md`: notable changes over time
@@ -48,7 +53,8 @@
 - How do people report vulnerabilities? `SECURITY.md`
 - How do we test it? `docs/TESTING.md`
 - How do reviews and contributions work? `CONTRIBUTING.md`, `CODEOWNERS`, `.github/*`
-- What should I read next? `docs/INDEX.md`, `CLAUDE.md`
+- What setup work remains? `TODO.md`
+- What should I read next? `docs/INDEX.md`, `AGENTS.md`, `CLAUDE.md`
 
 ## Governance And Workflow
 

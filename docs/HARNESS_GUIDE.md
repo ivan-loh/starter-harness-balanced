@@ -13,7 +13,9 @@
 ## Canonical Sources
 
 - `README.md`: human entry point
-- `CLAUDE.md`: canonical agent instruction file
+- `AGENTS.md`: model-neutral agent entry point
+- `CLAUDE.md`: Claude Code-specific instruction file
+- `TODO.md`: setup items that must be resolved after this template is copied
 - `docs/INDEX.md`: doc map and ownership guide
 - `docs/PRD.md`: product intent and scope
 - `docs/ARCHITECTURE.md`: durable system structure
