@@ -12,7 +12,7 @@ Explain which parts of the system this document covers and what it intentionally
 
 Summarize the system, its users, and its neighboring systems.
 
-Recommended view: include a simple system-context view and a container-level view before adding more detail.
+Recommended view: start with a system-context view (the system and its neighbors) and a container-level view (the major deployable pieces) before adding more detail. These are the first two levels of the [C4 model](https://c4model.com/diagrams).
 
 ## Major Components
 

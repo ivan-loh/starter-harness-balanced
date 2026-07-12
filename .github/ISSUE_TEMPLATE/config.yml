@@ -1,0 +1,7 @@
+blank_issues_enabled: false
+# TODO: after generating your repository, add a contact link that routes
+# security reports to this repository's security policy page, for example:
+# contact_links:
+#   - name: Report a security vulnerability
+#     url: https://github.com/<owner>/<repo>/security/policy
+#     about: Do not open public issues for unpatched vulnerabilities.

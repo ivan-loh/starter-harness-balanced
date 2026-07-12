@@ -26,3 +26,7 @@ Document which branches or releases receive security fixes.
 - Acknowledge within: `TODO`
 - Triage within: `TODO`
 - Coordinate disclosure before public release
+
+## Related Documents
+
+- Internal security model and controls: `docs/SECURITY.md`

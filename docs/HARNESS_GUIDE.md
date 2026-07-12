@@ -12,13 +12,8 @@
 
 ## Canonical Sources
 
-- `README.md`: human entry point
-- `AGENTS.md`: model-neutral agent entry point
-- `CLAUDE.md`: Claude Code-specific instruction file
-- `TODO.md`: setup items that must be resolved after this template is copied
-- `docs/INDEX.md`: doc map and ownership guide
-- `docs/PRD.md`: product intent and scope
-- `docs/ARCHITECTURE.md`: durable system structure
+- The canonical document map and the list of owning docs live in `docs/INDEX.md`, and only there.
+- If two documents disagree, fix the owning document and correct the other in the same change.
 
 ## Anti-Drift Rules
 

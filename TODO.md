@@ -8,8 +8,10 @@ Delete or replace items as they become real project documentation. Do not leave 
 
 ## First Setup
 
-- [ ] Replace all `{{...}}` placeholders across the repository.
-- [ ] Replace scaffold examples, `TODO` markers, `@org/team`, and `security@replace-me.example` with project-specific facts.
+- [ ] Delete the template banner at the top of `README.md`.
+- [ ] Replace all `{{...}}` placeholders across the repository (find them with `grep -rn '{{' .`).
+- [ ] Confirm the license type and copyright holder in `LICENSE`.
+- [ ] Replace scaffold examples, `TODO` markers, `@org/team`, `security@replace-me.example`, and `replace-with-private-channel` with project-specific facts.
 - [ ] Add project owners, maintainers, and review ownership.
 - [ ] Add a `.gitignore` for the project language, tools, secrets, local env files, build outputs, and caches.
 - [ ] Confirm the default branch is `{{DEFAULT_BRANCH}}` or update every reference.
@@ -41,6 +43,7 @@ Delete or replace items as they become real project documentation. Do not leave 
 - [ ] Replace public security contacts and response SLAs in `SECURITY.md`.
 - [ ] Fill in internal security model, trust boundaries, sensitive data, and control expectations in `docs/SECURITY.md`.
 - [ ] Replace `CODEOWNERS` with real users or teams.
+- [ ] Review and customize the `.github` issue and pull request templates, including the security contact link in `.github/ISSUE_TEMPLATE/config.yml`.
 - [ ] Configure repository settings, branch protection, and required reviewers.
 
 ## AI And Review Workflow
@@ -51,6 +54,8 @@ Delete or replace items as they become real project documentation. Do not leave 
 
 ## Release Readiness
 
-- [ ] Document how the project is packaged or deployed.
-- [ ] Document rollback or recovery steps before production use.
-- [ ] Document support ownership and escalation path before production use.
+- [ ] Choose a versioning scheme and start recording notable changes in `CHANGELOG.md`.
+- [ ] Document packaging and deployment in a new Deployment section of `docs/DEVELOPMENT.md`.
+- [ ] Document rollback and recovery steps under Failure Posture in `docs/ARCHITECTURE.md` before production use.
+- [ ] Document support ownership and the escalation path in `docs/DEVELOPMENT.md` or `README.md` before production use.
+- [ ] Consider moving to the `full` variant when deployment, operations, and release work needs owning docs.

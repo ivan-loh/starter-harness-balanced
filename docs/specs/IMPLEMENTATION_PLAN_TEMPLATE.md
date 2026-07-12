@@ -4,6 +4,15 @@
 > When to update: When the team changes how it plans technical delivery work.
 > Owner: {{OWNER_NAME}}.
 
+## How To Use This Template
+
+- Copy this file to `plan.md` beside the approved spec in `docs/specs/<yyyy-mm>-<feature-slug>/`.
+
+## Status
+
+- Spec: `link to spec.md in the same folder`
+- Stage: `Draft`
+
 ## Summary
 
 Describe the proposed approach in a short paragraph.

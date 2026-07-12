@@ -25,6 +25,10 @@
 - Local commands, environment rules, and developer workflow: `docs/DEVELOPMENT.md`
 - First setup tasks and unresolved scaffold decisions: `TODO.md`
 - System shape, boundaries, and invariants: `docs/ARCHITECTURE.md`
+- Decisions and ADRs: `docs/DECISIONS.md`, `docs/adr/`
+- Risks and assumptions: `docs/RISKS.md`
+- Direction and priorities: `docs/ROADMAP.md`
+- Notable release history: `CHANGELOG.md`
 - Internal security controls: `docs/SECURITY.md`
 - Public vulnerability reporting policy: `SECURITY.md`
 - Validation strategy and required checks: `docs/TESTING.md`
@@ -53,5 +57,6 @@
 
 - Changed behavior is reflected in docs.
 - Document structure changes are reflected in `docs/INDEX.md`.
-- Validation evidence is captured.
-- Remaining risks or follow-ups are recorded.
+- Decisions meeting the bar in `docs/DECISIONS.md` are recorded as ADRs.
+- Validation evidence (commands run and their outcomes) is included in the pull request description or task summary, per `docs/TESTING.md`.
+- Remaining risks or follow-ups are recorded in `docs/RISKS.md` or `TODO.md`.

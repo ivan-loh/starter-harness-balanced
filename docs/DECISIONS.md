@@ -17,7 +17,7 @@ Write an ADR for long-lived decisions that materially affect architecture, opera
 
 ## Index
 
-- `0000-template.md`: starter ADR template
+- `adr/0000-template.md`: starter ADR template
 
 ## Rules
 

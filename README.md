@@ -1,6 +1,7 @@
 > This is the `starter-harness-balanced` template repository.
 > Start here: [Use this template](https://github.com/ivan-loh/starter-harness-balanced/generate)
 > Need less or more structure? Compare the variants in [starter-harness](https://github.com/ivan-loh/starter-harness).
+> Delete this banner block after generating your repository.
 
 # {{PROJECT_NAME}}
 
@@ -14,10 +15,11 @@
 
 ## Start Here
 
-1. Replace the placeholder text in this file.
+1. Delete the template banner at the top of this file, then replace the placeholder text.
 2. Work through [TODO.md](TODO.md) for setup items that cannot be known before the template is copied.
 3. Read [docs/INDEX.md](docs/INDEX.md) to see what each doc is for.
-4. Fill in the core docs first, then fill in the security and governance files that apply.
+4. Add the real local setup commands to [docs/DEVELOPMENT.md](docs/DEVELOPMENT.md).
+5. Fill in the core docs first, then the security and governance files that apply.
 
 ## Project Defaults
 
@@ -27,46 +29,18 @@
 - Scaffold variant: `balanced`
 - Generated on: `{{CURRENT_DATE}}`
 
-## Quick Start
-
-1. Replace the placeholders in this file and the docs.
-2. Add the real local setup commands to [docs/DEVELOPMENT.md](docs/DEVELOPMENT.md).
-3. Add the current scope to [docs/PRD.md](docs/PRD.md).
-4. Keep [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) and [docs/TESTING.md](docs/TESTING.md) up to date.
-
 ## For LLMs
 
-- Read [AGENTS.md](AGENTS.md) first.
-- Read [README.md](README.md) second for the project overview.
-- Read [docs/INDEX.md](docs/INDEX.md) third.
-- Read [TODO.md](TODO.md) before substantial work.
-- Read [CLAUDE.md](CLAUDE.md) after that if you are Claude Code.
-- Use [docs/INDEX.md](docs/INDEX.md) as the file map.
-- Use root [SECURITY.md](SECURITY.md) for public reporting.
-- Use [docs/SECURITY.md](docs/SECURITY.md) for internal security work.
-- Update the right docs when behavior, structure, or process changes.
+- Coding agents: start at [AGENTS.md](AGENTS.md). Claude Code also loads [CLAUDE.md](CLAUDE.md) automatically.
+- The reading order and file map live in [docs/INDEX.md](docs/INDEX.md).
 
 ## Core Docs
 
-- [Project index](docs/INDEX.md)
+- [Documentation index](docs/INDEX.md) — the complete map of docs and governance files
 - [Template setup TODO](TODO.md)
-- [Harness guide](docs/HARNESS_GUIDE.md)
 - [Development guide](docs/DEVELOPMENT.md)
 - [Product requirements](docs/PRD.md)
-- [Architecture](docs/ARCHITECTURE.md)
-- [Internal security](docs/SECURITY.md)
-- [Testing strategy](docs/TESTING.md)
-- [Roadmap](docs/ROADMAP.md)
-- [Risks](docs/RISKS.md)
-
-## Governance
-
-- [Contributing guide](CONTRIBUTING.md)
-- [Public security policy](SECURITY.md)
-- [Changelog](CHANGELOG.md)
 
 ## Working Rules
 
-- Prefer `spec -> plan -> tasks` before large changes.
-- Update docs in the same change when behavior or process changes.
-- Keep changes small enough to review quickly.
+- The working rules for changes live in [AGENTS.md](AGENTS.md) and [CONTRIBUTING.md](CONTRIBUTING.md), and apply to humans and agents alike.
