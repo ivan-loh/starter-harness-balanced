@@ -12,14 +12,16 @@
 - `CLAUDE.md` is the Claude Code-specific instruction file.
 - `TODO.md` tracks setup items that cannot be known before the template is copied.
 - `docs/PRD.md` owns product scope and requirements.
+- `docs/DEVELOPMENT.md` owns local commands and developer workflow.
 - `docs/ARCHITECTURE.md` owns system structure.
 - `docs/TESTING.md` owns testing rules.
+- `SECURITY.md` owns the public vulnerability reporting policy; `docs/SECURITY.md` owns the internal security model.
 
 ## Reading Order
 
 - Humans: `README.md` -> `docs/INDEX.md` -> `docs/DEVELOPMENT.md` -> `docs/PRD.md` -> task-specific docs
-- LLMs: `AGENTS.md` -> `README.md` -> `docs/INDEX.md` -> `TODO.md` -> task-specific docs
-- Claude Code: `AGENTS.md` -> `README.md` -> `docs/INDEX.md` -> `TODO.md` -> `CLAUDE.md` -> task-specific docs
+- Coding agents: `AGENTS.md` -> `README.md` -> `docs/INDEX.md` -> `TODO.md` -> task-specific docs
+- Claude Code: `CLAUDE.md` is loaded automatically at session start; then follow the coding-agent order starting at `AGENTS.md`.
 
 ## Root Files
 
@@ -31,6 +33,7 @@
 - `SECURITY.md`: public security reporting
 - `CHANGELOG.md`: notable changes over time
 - `CODEOWNERS`: review ownership by path
+- `LICENSE`: license terms for the project
 
 ## Core Docs
 
@@ -43,6 +46,7 @@
 - `docs/ROADMAP.md`: planned next work
 - `docs/RISKS.md`: current risks and assumptions
 - `docs/DECISIONS.md`: ADR rules and index
+- `docs/adr/`: accepted decision records; the starter template is `docs/adr/0000-template.md`
 
 ## Where To Look
 
@@ -53,6 +57,9 @@
 - How do people report vulnerabilities? `SECURITY.md`
 - How do we test it? `docs/TESTING.md`
 - How do reviews and contributions work? `CONTRIBUTING.md`, `CODEOWNERS`, `.github/*`
+- Where do I record a decision? `docs/DECISIONS.md`, `docs/adr/`
+- What are the current risks and assumptions? `docs/RISKS.md`
+- What is planned next? `docs/ROADMAP.md`
 - What setup work remains? `TODO.md`
 - What should I read next? `docs/INDEX.md`, `AGENTS.md`, `CLAUDE.md`
 
@@ -70,3 +77,4 @@
 - `docs/specs/FEATURE_SPEC_TEMPLATE.md`: feature problem and outcome
 - `docs/specs/IMPLEMENTATION_PLAN_TEMPLATE.md`: technical plan for an approved spec
 - `docs/specs/TASK_BREAKDOWN_TEMPLATE.md`: small reviewable tasks
+- Instances: copy the templates to `docs/specs/<yyyy-mm>-<feature-slug>/{spec,plan,tasks}.md`. Each file links back to its predecessor, and the packet stays in place after shipping as the delivery record.

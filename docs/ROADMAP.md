@@ -21,4 +21,4 @@
 
 ## Notes
 
-Capture assumptions, dependencies, and explicit decision gates.
+Capture explicit decision gates here. Assumptions and dependencies live in `docs/RISKS.md`.

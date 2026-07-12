@@ -29,3 +29,7 @@ Describe where data changes classification, authority, or exposure level.
 ## Review Cadence
 
 State when this document must be reviewed and by whom.
+
+## Related Documents
+
+- Public vulnerability reporting policy: root `SECURITY.md`

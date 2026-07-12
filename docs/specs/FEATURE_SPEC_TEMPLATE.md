@@ -4,6 +4,17 @@
 > When to update: When the team changes how it frames problem statements, scope, or acceptance criteria.
 > Owner: {{OWNER_NAME}}.
 
+## How To Use This Template
+
+- Copy this file to `docs/specs/<yyyy-mm>-<feature-slug>/spec.md`.
+- The plan and tasks for the same feature live beside it as `plan.md` and `tasks.md`, each linking back to its predecessor.
+- Keep the completed packet in place after shipping as the delivery record.
+
+## Status
+
+- Stage: `Draft` (`Draft` -> `Approved` -> `Shipped`; the owner marks the spec `Approved` before planning starts)
+- Last reviewed: `{{CURRENT_DATE}}`
+
 ## Summary
 
 One paragraph describing the feature and why it matters.

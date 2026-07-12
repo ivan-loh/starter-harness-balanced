@@ -9,6 +9,12 @@
 - Required automated checks: `TODO`
 - Required manual checks: `TODO`
 
+## Validation Evidence
+
+- Evidence means the exact commands or checks run and their outcomes.
+- Record evidence in the pull request description or the task summary for the change.
+- Do not report a check as passing without running it. If a required check is still `TODO`, say so in the evidence.
+
 ## Test Layers
 
 - Unit tests: what belongs here
